@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderShieldService", "FolderShieldService\FolderShieldService.csproj", "{82E3F2A4-07DD-4690-95C8-96F3D72D7437}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FolderShieldSetup", "FolderShieldSetup\FolderShieldSetup.vdproj", "{45727E6C-2A93-4B84-87FD-B7BF94960A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderShield", "FolderShield\FolderShield.csproj", "{A7C173A1-65E2-4715-93D9-D4B0144E729B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderShieldLib", "FolderShieldLib\FolderShieldLib.csproj", "{1DFADBA3-F1B5-4311-AF85-229E5D25D6BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E3F2A4-07DD-4690-95C8-96F3D72D7437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E3F2A4-07DD-4690-95C8-96F3D72D7437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E3F2A4-07DD-4690-95C8-96F3D72D7437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E3F2A4-07DD-4690-95C8-96F3D72D7437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45727E6C-2A93-4B84-87FD-B7BF94960A76}.Debug|Any CPU.ActiveCfg = Debug
+		{45727E6C-2A93-4B84-87FD-B7BF94960A76}.Release|Any CPU.ActiveCfg = Release
+		{A7C173A1-65E2-4715-93D9-D4B0144E729B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C173A1-65E2-4715-93D9-D4B0144E729B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C173A1-65E2-4715-93D9-D4B0144E729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C173A1-65E2-4715-93D9-D4B0144E729B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFADBA3-F1B5-4311-AF85-229E5D25D6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFADBA3-F1B5-4311-AF85-229E5D25D6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFADBA3-F1B5-4311-AF85-229E5D25D6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFADBA3-F1B5-4311-AF85-229E5D25D6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D40348E9-B856-41C1-8562-E3B2D3C10DBE}
+	EndGlobalSection
+EndGlobal

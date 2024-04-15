@@ -1,0 +1,48 @@
+﻿<Window x:Class="FolderShield.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FolderShield"
+        mc:Ignorable="d"
+        Title="FolderShield" Height="500" Width="900"
+        Icon="Resources/Icon.ico">
+    <Grid Background="#31363F">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical" Margin="10">
+                <Label Content="Password:" Margin="0,0,0,5" Foreground="#EEEEEE"/>
+                <PasswordBox x:Name="passBox" Margin="0,0,0,5" Background="#EEEEEE"/>
+                <Button x:Name="passOK" Content="OK" Click="changePassButton_Click" Background="#76ABAE" Foreground="#31363F"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Vertical" Margin="10">
+                <Label Content="Chosen directory:" Margin="0,0,0,5" Foreground="#EEEEEE"/>
+                <TextBox x:Name="chosenDirectoryBox" IsReadOnly="True" Margin="0,0,0,5" Background="#EEEEEE"/>
+                <Button x:Name="changeDirectoryButton" Content="Change.." Click="changeDirectoryButton_Click" Background="#76ABAE" Foreground="#31363F"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" Margin="10">
+                <Button x:Name="startButton" Content="Start the service" Click="StartServiceButton_Click" Margin="0,0,0,5" Background="#76ABAE" Foreground="#31363F"/>
+                <Button x:Name="endButton" Content="Stop the service" Click="StopServiceButton_Click" Margin="0,0,0,5" Background="#76ABAE" Foreground="#31363F"/>
+                <Button Content="Clear logs" Click="ClearLogsButton_Click" Margin="0,0,0,5" Background="#76ABAE" Foreground="#31363F"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" Margin="10">
+                <Label Content="Service status:" Margin="0,0,0,5" Foreground="#EEEEEE"/>
+                <TextBox x:Name="serviceStatusTextBox" IsReadOnly="True" Margin="0,0,0,5" Background="#EEEEEE"/>
+                <Label Content="Service logs:" Margin="0,0,0,5" Foreground="#EEEEEE"/>
+                <TextBox x:Name="serviceLogBox" IsReadOnly="True" Margin="0,0,0,5" Height="203" Background="#EEEEEE"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
