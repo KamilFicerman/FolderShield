@@ -33,7 +33,9 @@ In the [Releases](https://github.com/KamilFicerman/FolderShield/releases/tag/v1.
 Below are video demonstrations showcasing the functionality of the application.
 
 **Installation**
+
 <img src="https://github.com/KamilFicerman/FolderShield/blob/master/gifs/installation.gif" width="900" height="500" />
 
 **Demo**
+
 <img src="https://github.com/KamilFicerman/FolderShield/blob/master/gifs/demonstration.gif" width="900" height="500" />
